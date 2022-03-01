@@ -6,7 +6,12 @@
 }
 html,body {
     height: 100%;
+    
+}
+.container {
     width: 100%;
+    height: 100%;
+    position: relative;
 }
 .header {
     width: 100%;
@@ -17,4 +22,21 @@ html,body {
     color: #fff;
     padding: 0 1rem;
     justify-content: space-between;
+}
+.header .logo {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 87px;
+    background-color: #3a3838;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0 1rem;
+    justify-content: space-between;
+
 }
