@@ -51,6 +51,8 @@ body {
 .container-presentation .title {
     color: #12adf5;
     font-size: 3rem;
+    text-align: center;
+    width: 1030px;
 }
 
 .container-presentation .label {
@@ -165,7 +167,7 @@ body {
     font-size: 4rem;
 }
 .container-about p {
-    color: 1rem;
+    color: 2rem;
     color: #fff;
     width: 600px;
     text-align: justify;
