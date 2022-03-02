@@ -1,3 +1,6 @@
+# como execultar o projeto?
+ * clone o repositorio para sua maquina
+ * execute no diretório raiz index.html
 # O que o projeto faz?
 Projeto de uma empresa de desenvolvimento de software que desenvolve soluções web para outras empresas.
 # Por que o projeto é util?
