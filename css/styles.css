@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+a {
+    text-decoration: none;
+}
 
 html,
 body {
@@ -167,8 +170,40 @@ body {
     width: 600px;
     text-align: justify;
 }
+.container-contact {
+    height: 100%;
+    background-color: #2e2d2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    width: 500px;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
 
+.contact-email label {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.contact-email:hover{
+    background-color:  #E56354;
+}
 
+.contact-email img {
+    width: 100px;height: 100px;
+}
+.contact-other {
+    margin-top: 10px;
+}
 .footer {
     position: relative;
     bottom: 0;
